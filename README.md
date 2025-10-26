@@ -1,4 +1,4 @@
-# 📝 To-Do List (Local Storage) (https://01-todo-local-storage.vercel.app/)
+# 📝 [To-Do List (Local Storage)](https://01-todo-local-storage.vercel.app/)
 
 A beautiful, modern, and interactive to-do list application built with **HTML**, **Tailwind CSS**, and **JavaScript**. This project is perfect for beginners learning web development, featuring a stunning dark mode interface with glass morphism effects and persistent data storage using the browser's localStorage.
 
