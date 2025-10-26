@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dark Mode To-Do List</title>
+    <link href="../src/output.css" rel="stylesheet" />
+  </head>
+  <body
+    class="bg-gradient-to-br from-gray-900 via-purple-900 to-gray-900 text-white font-sans flex items-center justify-center min-h-screen p-4"
+  >
+    <div class="w-full max-w-md">
+      <!-- Main Container -->
+      <div
+        class="bg-gray-800/90 backdrop-blur-lg p-8 rounded-2xl shadow-2xl border border-gray-700"
+      >
+        <!-- Header -->
+        <div class="text-center mb-6">
+          <h1
+            class="text-4xl font-bold mb-2 bg-gradient-to-r from-purple-400 to-pink-600 bg-clip-text text-transparent"
+          >
+            To-Do List
+          </h1>
+          <p class="text-gray-400 text-sm">Stay organized, stay productive</p>
+        </div>
+
+        <!-- Input Section -->
+        <div class="flex gap-2 mb-6">
+          <input
+            id="todo-input"
+            type="text"
+            class="flex-grow p-3 rounded-lg bg-gray-700/50 text-white placeholder-gray-400 outline-none focus:ring-2 focus:ring-purple-500 transition-all"
+            placeholder="Add a new task..."
+          />
+          <button
+            id="add-task-btn"
+            class="px-6 py-3 bg-gradient-to-r from-purple-600 to-pink-600 text-white rounded-lg hover:from-purple-700 hover:to-pink-700 transition-all transform hover:scale-105 active:scale-95 font-semibold shadow-lg"
+          >
+            Add
+          </button>
+        </div>
+
+        <!-- Task List -->
+        <ul id="todo-list" class="space-y-2 mb-6"></ul>
+
+        <!-- Footer -->
+        <div class="text-center pt-4 border-t border-gray-700">
+          <p class="text-gray-400 text-sm">
+            Built with <span class="text-red-500 animate-pulse">❤️</span> by
+            <span class="font-semibold text-purple-400"
+              >Byamkesh Kaiwartya</span
+            >
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
