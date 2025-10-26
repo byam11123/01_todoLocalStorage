@@ -17,4 +17,4 @@ Thumbs.db
 npm-debug.log*
 
 # Generated files
-
+src/output.css
